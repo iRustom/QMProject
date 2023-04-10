@@ -4,9 +4,9 @@
 
 ### Part (A) split three way:
 
-- Ahmed will complete 1 and 2
-- Bavly will complete 3
-- Omar will complete 4 and 5
+- iRustom will complete 1 and 2
+- BavlyRemon will complete 3
+- OmarElfouly will complete 4 and 5
 
 ### Part (B), (C), (D) will be evenly split across members
 
@@ -37,7 +37,7 @@ Part 5:  Solve the PI table and print the minimized Boolean expression of the Bo
 function using the 3 step heuristic discussed in the lecture.
 
 ## Program Design
-### Part 1: Ahmed Ali
+### Part 1: iRustom
 Takes input validates SoP:
 - latin letters a to z.
 - if there are no brackets then it is SoP.
@@ -96,7 +96,7 @@ Now, once each pair is determined, I only check the bracket pairs which containe
 potential problem-causing terms, and I check that it is not being multiplied before or after that term. Finally, if all these checks
 are passed, the function is evaluated as true, and I am able to now move on to part 2.
 
-### Part 2: Ahmed Ali
+### Part 2: iRustom
 Input: clean user input
 Output: Vector of min terms (x = {1,5,9}), and string of variables ("ACF").
 
@@ -118,7 +118,7 @@ and if they match, I add the term to my vector of minterms.
 Once that is done, I now have my vector of minterms and maxterms, and I call a simple printing function to print the canonical forms
 of the function, along with their shorthand notations.
 
-### Part 3: Bavly Remon
+### Part 3: BavlyRemon
 
 #### Inputs:
 
@@ -196,7 +196,7 @@ Finally, the function returns the list of prime implicants found during the algo
 -added an extra parameter in the function to add the option to print or not
 
 
-### Part 4 and 5: Omar Elfouly
+### Part 4 and 5: OmarElfouly
 
 Since part 4 can be considered an essential subsection of part 5 we will be discussing them together.
 
